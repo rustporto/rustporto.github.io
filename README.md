@@ -1,2 +1,4 @@
 # rustporto.github.io
-Rust Porto
+Rust Porto community.
+
+Page under development!
