@@ -1,7 +1,12 @@
 # rustporto.github.io
-Rust Porto community.
 
-Page under development!
+Comunidade Rust Porto, Portugal.
+
+Página em desenvolvimento.
+
+## Rust
+
+- Página oficial de Rust [link](https://rust-lang.org/).
 
 ## Frameworks
 
