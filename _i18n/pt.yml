@@ -1,0 +1,5 @@
+# _i18n/pt.yml
+site:
+  title: "Rust no Porto!"
+  tagline: "tagline aqui"
+  description: "descrição aqui"

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <title>
+        {% if page.title %}{{ page.title }} - {% endif %}{% t site.title %}</title>
+    {% comment %}
+    {% include favicon.html %}
+    {% endcomment %}
+    <link rel="stylesheet" href="/assets/css/tailwind.css">
+  </head>
+  <body>
+      {% comment %}
+    {% include navigation.html %}
+    {{ content }}
+    {% include footer.html %}
+    {% endcomment %}
+  </body>
+</html>

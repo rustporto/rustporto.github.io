@@ -1,0 +1,5 @@
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "pt"]
+exclude_from_localizations: ["assets", "images", "css", "js", "admin", "404.html"]
