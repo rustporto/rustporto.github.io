@@ -7,4 +7,4 @@ baseurl: ""
 languages: ["en", "pt"]
 exclude_from_localizations: ["assets", "images", "css", "js", "admin", "404.html"]
 
-exclude: ["README.md", "input.css"]
+exclude: ["README.md", "input.css", "docs"]
