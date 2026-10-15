@@ -1,0 +1,17 @@
+<nav class="language-switcher flex space-x-2" aria-label="{% t nav.language %}">
+  {% for lang in site.languages %}
+    {% if lang == site.default_lang %}
+      {% assign url = page.url %}
+    {% else %}
+      {% assign url = page.url | prepend: lang | prepend: '/' %}
+    {% endif %}
+    <a href="{{ url }}"
+       hreflang="{{ lang }}"
+       lang="{{ lang }}"
+       {% if lang == site.lang %}aria-current="true"{% endif %}
+       class="px-3 py-1 rounded-lg text-sm font-medium transition-colors duration-200
+              {% if lang == site.lang %}bg-blue-600 text-white{% else %}bg-gray-200 text-gray-700 hover:bg-gray-300{% endif %}">
+      {{ lang | upcase }}
+    </a>
+  {% endfor %}
+</nav>

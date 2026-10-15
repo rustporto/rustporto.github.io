@@ -1,5 +1,24 @@
 # _i18n/en.yml
 site:
-  title: "Rust in Porto!"
-  tagline: "tagline here"
-  description: "description here"
+  title: "Rust Porto Community"
+  tagline: "Gatherings and meetups for Rust developers and enthusiasts in Porto."
+  description: "The Rust programming language community in Porto, Portugal."
+titles:
+  contact: "Contact"
+home:
+  title: "Rust Community in Porto, Portugal"
+  in_development: "Page under development."
+  rust_title: "Rust"
+  rust_link: "Rust official page"
+  frameworks_title: "Frameworks"
+contact:
+  title: "Contact"
+  intro: "Questions, ideas, or want to join the community? Get in touch."
+  github_label: "GitHub"
+  where_label: "Where we are"
+  where: "Porto, Portugal"
+nav:
+  main: "Main"
+  home: "Home"
+  contact: "Contact"
+  language: "Language"

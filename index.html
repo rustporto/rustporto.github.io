@@ -1,15 +1,68 @@
 ---
 layout: default
+namespace: home
+permalink: /
 ---
 
 <div class="min-h-screen bg-linear-to-b from-white to-gray-50">
   <section class="py-20 bg-gray-50">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center mb-16">
-          {% comment %}
-        <h2 class="text-3xl font-bold text-gray-900 mb-4">{% t sections.features_title %}</h2>
-        <p class="text-gray-600 max-w-2xl mx-auto">{% t sections.features_subtitle %}</p>
-        {% endcomment %}
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">{% t home.title %}</h1>
+        <p class="text-gray-600 max-w-2xl mx-auto mt-2">{% t home.in_development %}</p>
       </div>
+
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">{% t home.rust_title %}</h2>
+        <ul class="space-y-2">
+          <li>
+            <a href="https://rust-lang.org/"
+               class="text-blue-600 hover:underline font-medium">{% t home.rust_link %}</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">{% t home.frameworks_title %}</h2>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <li>
+            <a href="https://v2.tauri.app/"
+               class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Tauri</a>
+          </li>
+          <li>
+            <a href="https://rocket.rs/"
+               class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Rocket</a>
+          </li>
+          <li>
+            <a href="https://leptos.dev/"
+               class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Leptos</a>
+          </li>
+          <li>
+            <a href="https://iced.rs/"
+               class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">iced</a>
+          </li>
+          <li>
+            <a href="https://yew.rs/"
+               class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Yew</a>
+          </li>
+          <li>
+            <a href="https://slint.dev/"
+               class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">slint</a>
+          </li>
+          <li>
+            <a href="https://dioxuslabs.com/"
+               class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Dioxus</a>
+          </li>
+          <li>
+            <a href="https://www.egui.rs/"
+               class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">egui</a>
+          </li>
+          <li>
+            <a href="https://xilem.dev/"
+               class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Xilem</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
 </div>

@@ -2,4 +2,23 @@
 site:
   title: "Rust no Porto!"
   tagline: "tagline aqui"
-  description: "descrição aqui"
+  description: "A comunidade da linguagem de programação Rust no Porto, Portugal."
+titles:
+  contact: "Contacto"
+home:
+  title: "Comunidade Rust no Porto, Portugal"
+  in_development: "Página em desenvolvimento."
+  rust_title: "Rust"
+  rust_link: "Página oficial de Rust"
+  frameworks_title: "Frameworks"
+contact:
+  title: "Contacto"
+  intro: "Tens perguntas, ideias ou queres juntar-te à comunidade? Entra em contacto."
+  github_label: "GitHub"
+  where_label: "Onde estamos"
+  where: "Porto, Portugal"
+nav:
+  main: "Principal"
+  home: "Início"
+  contact: "Contacto"
+  language: "Idioma"
