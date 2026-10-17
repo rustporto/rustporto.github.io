@@ -34,15 +34,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-
       - name: Build Tailwind CSS
+        env:
+          TAILWIND_VERSION: v4.3.3
         run: |
+          base="https://github.com/tailwindlabs/tailwindcss/releases/download/$TAILWIND_VERSION"
+          curl -sSLf --retry 3 -o "$RUNNER_TEMP/tailwindcss-linux-x64" "$base/tailwindcss-linux-x64"
+          chmod +x "$RUNNER_TEMP/tailwindcss-linux-x64"
           mkdir -p assets/css
-          npx --yes @tailwindcss/cli@4.3.3 -i input.css -o assets/css/tailwind.css --minify
+          "$RUNNER_TEMP/tailwindcss-linux-x64" --input input.css --output assets/css/tailwind.css --minify
 
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
