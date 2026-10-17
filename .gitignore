@@ -5,4 +5,6 @@ _site/
 .bundle/
 vendor/
 
+Gemfile.lock
+
 assets/css/tailwind.css
