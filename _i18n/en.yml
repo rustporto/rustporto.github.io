@@ -1,0 +1,37 @@
+# _i18n/en.yml
+site:
+  title: "Rust Porto Community"
+  tagline: "Gatherings and meetups for Rust developers and enthusiasts in Porto."
+  description: "The Rust programming language community in Porto, Portugal."
+titles:
+  contact: "Contact"
+home:
+  title: "Rust Community in Porto, Portugal"
+  rust_title: "Rust"
+  rust_description: "Rust is a systems programming language focused on safety, speed and concurrency. It lets you build reliable, high-performance software without a garbage collector or runtime overhead."
+  rust_link: "Rust official page"
+  ecosystems_title: "Rust Ecosystem"
+  categories:
+    web_backend: "Web Backend"
+    async_utilities: "Async & Utilities"
+    database: "Database"
+    web: "Web"
+    mobile: "Mobile"
+    desktop_gui: "Desktop GUI"
+    game_development: "Game Development"
+  matrix_intro_before: "To join and see upcoming events, download your preferred"
+  matrix_client_link: "Matrix client"
+  matrix_intro_after: "and then click the button below to join."
+  matrix_cta: "Join on Matrix!"
+contact:
+  title: "Contact"
+  intro: "Questions, ideas, or want to join the community? Get in touch."
+  matrix_label: "Matrix"
+  github_label: "GitHub"
+  where_label: "Where we are"
+  where: "Porto, Portugal"
+nav:
+  main: "Main"
+  home: "Home"
+  contact: "Contact"
+  language: "Language"

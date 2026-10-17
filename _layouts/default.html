@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{% t page.title %} - {% endif %}{% t site.title %}</title>
+    <meta name="description" content="{% t site.description %}">
+    {% for lang in site.languages %}
+      {% if lang == site.default_lang %}
+        {% assign alternate_url = page.url %}
+      {% else %}
+        {% assign alternate_url = page.url | prepend: lang | prepend: '/' %}
+      {% endif %}
+      <link rel="alternate" hreflang="{{ lang }}" href="{{ alternate_url | absolute_url }}">
+    {% endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+    {% include favicon.html %}
+    <link rel="stylesheet" href="/assets/css/tailwind.css">
+  </head>
+  <body>
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
+  </body>
+</html>

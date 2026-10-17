@@ -1,0 +1,171 @@
+---
+layout: default
+namespace: home
+permalink: /
+---
+
+<div class="min-h-screen bg-linear-to-b from-white to-gray-50">
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">{% t home.title %}</h1>
+
+        <div class="mt-10">
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            {% t home.matrix_intro_before %}
+            <a href="https://matrix.org/try-matrix/" target="_blank" rel="noopener"
+               class="text-blue-600 hover:underline">{% t home.matrix_client_link %}</a>
+            {% t home.matrix_intro_after %}
+          </p>
+          <a href="{{ site.matrix_space }}" target="_blank" rel="noopener"
+             class="inline-block mt-6 px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-sm hover:bg-blue-700 transition-colors">{% t home.matrix_cta %}</a>
+        </div>
+      </div>
+
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">{% t home.rust_title %}</h2>
+        <p class="text-gray-600 mb-4 max-w-3xl">{% t home.rust_description %}</p>
+        <ul class="flex flex-wrap gap-x-6 gap-y-2">
+          <li>
+            <a href="https://rust-lang.org/"
+               class="text-blue-600 hover:underline font-medium">{% t home.rust_link %}</a>
+          </li>
+          <li>
+            <a href="https://crates.io/"
+               class="text-blue-600 hover:underline font-medium">crates.io</a>
+          </li>
+          <li>
+            <a href="https://docs.rs/"
+               class="text-blue-600 hover:underline font-medium">docs.rs</a>
+          </li>
+          <li>
+            <a href="https://users.rust-lang.org/"
+               class="text-blue-600 hover:underline font-medium">Users' Forum</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">{% t home.ecosystems_title %}</h2>
+
+        <div class="mb-10">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">{% t home.categories.web_backend %}</h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <li>
+              <a href="https://axum.rs/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Axum</a>
+            </li>
+            <li>
+              <a href="https://rocket.rs/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Rocket</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mb-10">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">{% t home.categories.async_utilities %}</h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <li>
+              <a href="https://tokio.rs/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Tokio</a>
+            </li>
+            <li>
+              <a href="https://serde.rs/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">serde</a>
+            </li>
+            <li>
+              <a href="https://github.com/seanmonstar/reqwest"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">reqwest</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mb-10">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">{% t home.categories.database %}</h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <li>
+              <a href="https://github.com/launchbadge/sqlx"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">SQLx</a>
+            </li>
+            <li>
+              <a href="https://diesel.rs/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Diesel</a>
+            </li>
+            <li>
+              <a href="https://www.sea-ql.org/SeaORM/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">SeaORM</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mb-10">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">{% t home.categories.web %}</h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <li>
+              <a href="https://leptos.dev/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Leptos</a>
+            </li>
+            <li>
+              <a href="https://yew.rs/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Yew</a>
+            </li>
+            <li>
+              <a href="https://dioxuslabs.com/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Dioxus</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mb-10">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">{% t home.categories.mobile %}</h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <li>
+              <a href="https://v2.tauri.app/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Tauri</a>
+            </li>
+            <li>
+              <a href="https://slint.dev/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">slint</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mb-10">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">{% t home.categories.desktop_gui %}</h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <li>
+              <a href="https://iced.rs/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">iced</a>
+            </li>
+            <li>
+              <a href="https://www.egui.rs/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">egui</a>
+            </li>
+            <li>
+              <a href="https://xilem.dev/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Xilem</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">{% t home.categories.game_development %}</h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <li>
+              <a href="https://bevyengine.org/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Bevy</a>
+            </li>
+            <li>
+              <a href="https://fyrox.rs/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Fyrox</a>
+            </li>
+            <li>
+              <a href="https://macroquad.rs/"
+                 class="block p-4 bg-white rounded-lg shadow-sm font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">macroquad</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
