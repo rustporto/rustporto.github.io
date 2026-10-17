@@ -8,8 +8,17 @@ titles:
 home:
   title: "Comunidade Rust no Porto, Portugal"
   rust_title: "Rust"
+  rust_description: "Rust é uma linguagem de programação de sistemas com foco em segurança, velocidade e concorrência. Permite criar software fiável e de alto desempenho, sem garbage collector nem sobrecarga de runtime."
   rust_link: "Página oficial de Rust"
-  frameworks_title: "Frameworks"
+  ecosystems_title: "Ecossistema Rust"
+  categories:
+    web_backend: "Backend Web"
+    async_utilities: "Assíncrono e Utilitários"
+    database: "Base de Dados"
+    web: "Web"
+    mobile: "Móvel"
+    desktop_gui: "Ambiente Gráfico (Desktop)"
+    game_development: "Desenvolvimento de Jogos"
   matrix_intro_before: "Para fazer parte e ver os próximos eventos, transfere o teu"
   matrix_client_link: "cliente Matrix"
   matrix_intro_after: "preferido e depois clica no botão em baixo para entrares."
