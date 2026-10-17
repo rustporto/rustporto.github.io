@@ -26,6 +26,7 @@ home:
 contact:
   title: "Contact"
   intro: "Questions, ideas, or want to join the community? Get in touch."
+  matrix_label: "Matrix"
   github_label: "GitHub"
   where_label: "Where we are"
   where: "Porto, Portugal"
