@@ -9,7 +9,17 @@ permalink: /
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center mb-16">
         <h1 class="text-4xl font-bold text-gray-900 mb-4">{% t home.title %}</h1>
-        <p class="text-gray-600 max-w-2xl mx-auto mt-2">{% t home.in_development %}</p>
+
+        <div class="mt-10">
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            {% t home.matrix_intro_before %}
+            <a href="https://matrix.org/try-matrix/" target="_blank" rel="noopener"
+               class="text-blue-600 hover:underline">{% t home.matrix_client_link %}</a>
+            {% t home.matrix_intro_after %}
+          </p>
+          <a href="{{ site.matrix_space }}" target="_blank" rel="noopener"
+             class="inline-block mt-6 px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-sm hover:bg-blue-700 transition-colors">{% t home.matrix_cta %}</a>
+        </div>
       </div>
 
       <div class="mb-12">

@@ -7,10 +7,13 @@ titles:
   contact: "Contact"
 home:
   title: "Rust Community in Porto, Portugal"
-  in_development: "Page under development."
   rust_title: "Rust"
   rust_link: "Rust official page"
   frameworks_title: "Frameworks"
+  matrix_intro_before: "To join and see upcoming events, download your preferred"
+  matrix_client_link: "Matrix client"
+  matrix_intro_after: "and then click the button below to join."
+  matrix_cta: "Join on Matrix!"
 contact:
   title: "Contact"
   intro: "Questions, ideas, or want to join the community? Get in touch."

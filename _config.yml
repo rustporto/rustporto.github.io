@@ -4,6 +4,8 @@ plugins:
 url: "https://rustporto.github.io"
 baseurl: ""
 
+matrix_space: "https://matrix.to/#/#rust-porto-community:matrix.org"
+
 languages: ["en", "pt"]
 exclude_from_localizations: ["assets", "images", "css", "js", "admin", "404.html"]
 
